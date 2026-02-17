@@ -1,17 +1,24 @@
+streamlit
 langchain
 langchain-community
 langchain-text-splitters
-PyPDF2==3.0.1
-python-dotenv==1.0.0
-streamlit==1.18.1
-google-generativeai
-faiss-cpu==1.13.2
-altair==4
-tiktoken==0.4.0
+
+PyPDF2
+python-dotenv
+
+faiss-cpu
 sentence-transformers
-numpy>=1.25.0
-torch
+
+google-generativeai
+
+tiktoken
 transformers
-protobuf>=3.20.0
+torch
+
+numpy
+altair
+
+protobuf==3.20.3
+
 # uncomment to use huggingface llms
 # huggingface-hub==0.14.1
